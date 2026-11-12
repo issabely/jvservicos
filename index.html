@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://xn--jvservios-w3a.com/">
+<meta name="theme-color" content="#0d0d0c">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="JV Serviços Elétricos | Eletricista e ar-condicionado">
+<meta property="og:description" content="Instalações, manutenção elétrica, quadros de distribuição, iluminação e ar-condicionado em Londrina, Bandeirantes, Andirá, Itambaracá e região.">
+<meta property="og:url" content="https://xn--jvservios-w3a.com/">
+<meta property="og:image" content="https://xn--jvservios-w3a.com/img/eletrica.jpg">
+<link rel="icon" href="img/logo.png">
+<link rel="apple-touch-icon" href="img/logo.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Electrician","name":"JV Serviços Elétricos","url":"https://xn--jvservios-w3a.com/","image":"https://xn--jvservios-w3a.com/img/eletrica.jpg","logo":"https://xn--jvservios-w3a.com/img/logo.png","telephone":"+55-43-99132-9964","email":"jvservicoseletricos@gmail.com","slogan":"Sua energia em boas mãos","address":{"@type":"PostalAddress","addressLocality":"Londrina","addressRegion":"PR","addressCountry":"BR"},"areaServed":["Londrina","Bandeirantes","Andirá","Itambaracá"],"sameAs":["https://www.instagram.com/jvservicoseletricos/"]}</script>
+<title>JV Serviços Elétricos | Eletricista e ar-condicionado em Londrina e Bandeirantes</title>
+<meta name="description" content="Eletricista e ar-condicionado em Londrina, Bandeirantes, Andirá, Itambaracá e região. Instalações, manutenção, quadros de distribuição, iluminação e projetos elétricos. Orçamento pelo WhatsApp (43) 9 9132-9964.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@112..125,600..900&family=Barlow:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}
+/* Layout: faixa de advertência + painel de quadro elétrico — blocos pretos, cortes diagonais, amarelo só onde há ação */
+:root{
+  --ink:#0d0d0c;        /* fundo principal */
+  --panel:#171714;      /* superfícies */
+  --panel-2:#211f1a;
+  --line:#34312a;
+  --volt:#f5c518;       /* amarelo da marca */
+  --volt-deep:#d9a90a;
+  --text:#f2efe6;
+  --muted:#a7a196;
+  --zap:#25d366;
+  --f-display:"Archivo","Arial Black",system-ui,sans-serif;
+  --f-body:"Barlow","Segoe UI",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  --gut-l:max(16px, env(safe-area-inset-left, 0px));
+  --gut-r:max(16px, env(safe-area-inset-right, 0px));
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{background:var(--ink);color:var(--text);font:400 17px/1.6 var(--f-body);margin:0}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--ink)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--volt);outline-offset:3px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:var(--gut-l);padding-right:var(--gut-r)}
+h1,h2,h3{font-family:var(--f-display);font-stretch:118%;line-height:1.02;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.eyebrow{font:700 12px/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--volt);display:inline-flex;align-items:center;gap:10px}
+.eyebrow::before{content:"";width:22px;height:10px;background:repeating-linear-gradient(-45deg,var(--volt) 0 4px,transparent 4px 8px)}
+
+/* faixa de advertência */
+.hazard{height:12px;background:repeating-linear-gradient(-45deg,var(--volt) 0 18px,var(--ink) 18px 36px)}
+
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(13,13,12,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{width:52px;height:auto}
+.brand b{font:900 15px/1.05 var(--f-display);font-stretch:120%;letter-spacing:.02em;text-transform:uppercase}
+.brand small{display:block;font:600 11px/1.3 var(--f-mono);color:var(--muted);letter-spacing:.12em}
+.menu{display:flex;gap:26px;font-weight:600;font-size:15px}
+.menu a{text-decoration:none;color:var(--muted);transition:color .2s}
+.menu a:hover{color:var(--volt)}
+@media (max-width:860px){.menu{display:none}}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:800 15px/1 var(--f-display);font-stretch:112%;text-transform:uppercase;letter-spacing:.03em;text-decoration:none;padding:16px 22px;border:0;cursor:pointer;clip-path:polygon(10px 0,100% 0,calc(100% - 10px) 100%,0 100%);transition:transform .15s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-volt{background:var(--volt);color:var(--ink)}
+.btn-volt:hover{background:#ffd43a}
+.btn-ghost{background:var(--panel-2);color:var(--text)}
+.btn-sm{padding:12px 16px;font-size:13px}
+.btn svg{width:20px;height:20px;flex:none}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center;padding-block:56px 64px}
+.hero h1{font-size:clamp(44px,7.4vw,96px);font-weight:900;text-transform:uppercase;margin-top:18px}
+.hero h1 em{font-style:normal;color:var(--volt);display:block}
+.hero p.lead{font-size:clamp(17px,1.6vw,20px);color:var(--muted);max-width:30em;margin:22px 0 30px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px}
+.tension{display:flex;flex-wrap:wrap;gap:8px;margin-top:34px}
+.tension span{font:700 12px/1 var(--f-mono);letter-spacing:.08em;padding:9px 12px;border:1px solid var(--line);color:var(--muted);background:var(--panel)}
+.tension span b{color:var(--volt)}
+.hero-photo{position:relative;justify-self:end;width:100%;max-width:470px}
+.hero-photo img{display:block;width:100%;aspect-ratio:464/610;object-fit:cover;clip-path:polygon(14% 0,100% 0,100% 100%,0 100%,0 9%)}
+.hero-photo::after{content:"";position:absolute;left:-18px;bottom:-18px;width:62%;height:44%;border-left:6px solid var(--volt);border-bottom:6px solid var(--volt);pointer-events:none}
+.badge{position:absolute;right:-8px;top:28px;background:var(--volt);color:var(--ink);font:900 13px/1.1 var(--f-display);text-transform:uppercase;padding:12px 14px;transform:rotate(3deg);box-shadow:6px 6px 0 var(--ink)}
+.bolt-bg{position:absolute;right:-6%;top:-10%;width:52%;opacity:.05;pointer-events:none}
+@media (max-width:860px){
+  .hero-grid{grid-template-columns:1fr;padding-block:36px 48px}
+  .hero-photo{justify-self:start;max-width:420px}
+}
+
+/* faixa contato */
+.strip{background:var(--volt);color:var(--ink)}
+.strip .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 28px;padding-block:18px}
+.strip .num{font:900 clamp(26px,4vw,40px)/1 var(--f-display);font-stretch:112%;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.strip .num small{font-size:.6em;margin-right:6px}
+.strip ul{display:flex;flex-wrap:wrap;gap:8px 26px;list-style:none;margin:0;padding:0;font-weight:700;font-size:15px}
+.strip li{display:flex;align-items:center;gap:8px}
+.strip li svg{width:18px;height:18px}
+
+section{padding-block:88px}
+.sec-head{display:grid;grid-template-columns:1fr 1fr;gap:24px 48px;align-items:end;margin-bottom:44px}
+.sec-head h2{font-size:clamp(34px,4.6vw,58px);font-weight:900;text-transform:uppercase;margin-top:14px}
+.sec-head p{color:var(--muted);margin:0;max-width:34em}
+@media (max-width:760px){.sec-head{grid-template-columns:1fr}section{padding-block:64px}}
+
+/* abas de serviços */
+.tabs{display:inline-flex;background:var(--panel);border:1px solid var(--line);padding:4px;gap:4px;margin-bottom:28px;flex-wrap:wrap}
+.tab{font:800 14px/1 var(--f-display);font-stretch:112%;text-transform:uppercase;letter-spacing:.03em;background:transparent;color:var(--muted);border:0;padding:14px 18px;cursor:pointer;display:flex;align-items:center;gap:10px}
+.tab svg{width:18px;height:18px}
+.tab[aria-selected="true"]{background:var(--volt);color:var(--ink)}
+.svc-panel{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:28px;align-items:start}
+.svc-panel figure{margin:0;position:sticky;top:96px}
+.svc-panel figure img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border:1px solid var(--line)}
+.svc-panel figcaption{font:600 12px/1.4 var(--f-mono);color:var(--muted);letter-spacing:.06em;margin-top:10px;text-transform:uppercase}
+@media (max-width:900px){.svc-panel{grid-template-columns:1fr}.svc-panel figure{position:static;max-width:420px}}
+.svc-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+@media (max-width:620px){.svc-list{grid-template-columns:1fr}}
+.svc{padding:26px 24px 28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--ink);transition:background .2s;display:grid;grid-template-columns:48px minmax(0,1fr);gap:4px 16px}
+.svc:hover{background:var(--panel)}
+.svc .ic{grid-row:span 2;width:48px;height:48px;border:2px solid var(--volt);border-radius:50%;display:grid;place-items:center;color:var(--volt)}
+.svc .ic svg{width:24px;height:24px}
+.svc h3{font-size:18px;font-weight:800;text-transform:uppercase;font-stretch:112%;align-self:center}
+.svc p{margin:4px 0 0;color:var(--muted);font-size:15.5px;line-height:1.5}
+.svc .code{grid-column:2;font:700 11px/1 var(--f-mono);color:var(--volt-deep);letter-spacing:.12em;margin-top:12px}
+
+/* segmentos */
+.segs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2px;background:var(--line);border:1px solid var(--line)}
+@media (max-width:760px){.segs{grid-template-columns:1fr}}
+.seg{background:var(--panel);padding:30px 26px}
+.seg .ic{color:var(--volt);width:40px;height:40px}
+.seg h3{font-size:22px;font-weight:900;text-transform:uppercase;margin:16px 0 8px;font-stretch:120%}
+.seg p{margin:0;color:var(--muted);font-size:16px}
+
+/* sinais de alerta */
+.alert-sec{background:var(--panel);border-block:1px solid var(--line);position:relative}
+.alerts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:900px){.alerts{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.alerts{grid-template-columns:1fr}}
+.al{display:flex;gap:14px;align-items:flex-start;padding:20px;background:var(--ink);border:1px solid var(--line);border-left:4px solid var(--volt)}
+.al .tri{flex:none;width:28px;height:28px;color:var(--volt)}
+.al b{display:block;font-weight:700;font-size:17px;line-height:1.3}
+.al span{display:block;color:var(--muted);font-size:15px;line-height:1.45;margin-top:4px}
+.al-note{margin-top:26px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;color:var(--muted)}
+.al-note strong{color:var(--text)}
+
+/* como funciona */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;counter-reset:s;list-style:none;padding:0;margin:0}
+@media (max-width:900px){.steps{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:28px}}
+@media (max-width:520px){.steps{grid-template-columns:1fr}}
+.steps li{position:relative;padding:0 22px 0 0}
+.steps li::before{counter-increment:s;content:"0" counter(s);font:900 52px/1 var(--f-display);font-stretch:125%;color:transparent;-webkit-text-stroke:1.5px var(--volt);display:block;margin-bottom:14px}
+.steps li::after{content:"";position:absolute;top:24px;left:84px;right:22px;height:2px;background:repeating-linear-gradient(90deg,var(--line) 0 8px,transparent 8px 14px)}
+.steps li:last-child::after{display:none}
+@media (max-width:900px){.steps li::after{display:none}}
+.steps h3{font-size:19px;font-weight:800;text-transform:uppercase;font-stretch:112%}
+.steps p{color:var(--muted);margin:8px 0 0;font-size:15.5px}
+
+/* orçamento */
+.quote{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:48px;align-items:start}
+@media (max-width:900px){.quote{grid-template-columns:1fr}}
+.contact-list{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:12px}
+.contact-list li{display:flex;align-items:center;gap:14px;padding:16px 18px;background:var(--panel);border:1px solid var(--line);min-width:0}
+.contact-list .ic{flex:none;width:40px;height:40px;background:var(--volt);color:var(--ink);display:grid;place-items:center;clip-path:polygon(25% 0,100% 0,75% 100%,0 100%)}
+.contact-list .ic svg{width:20px;height:20px}
+.contact-list .k{font:700 11px/1 var(--f-mono);letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+.contact-list .v{font-weight:700;font-size:17px;overflow-wrap:anywhere;user-select:all}
+.contact-list .v a{text-decoration:none}
+.contact-list .v a:hover{color:var(--volt)}
+.contact-list .meta{min-width:0;flex:1}
+.copy{flex:none;background:transparent;border:1px solid var(--line);color:var(--muted);font:700 11px/1 var(--f-mono);letter-spacing:.1em;padding:9px 10px;cursor:pointer;text-transform:uppercase}
+.copy:hover{border-color:var(--volt);color:var(--volt)}
+
+form.card{background:var(--panel);border:1px solid var(--line);padding:30px;position:relative}
+form.card::before{content:"";position:absolute;inset:0 0 auto;height:6px;background:repeating-linear-gradient(-45deg,var(--volt) 0 10px,var(--ink) 10px 20px)}
+form h3{font-size:26px;font-weight:900;text-transform:uppercase;font-stretch:118%;margin-top:6px}
+form .sub{color:var(--muted);margin:8px 0 22px;font-size:15.5px}
+.fgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:560px){.fgrid{grid-template-columns:1fr}form.card{padding:24px 18px}}
+.full{grid-column:1/-1}
+label{display:block;font:700 12px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+input,select,textarea{width:100%;font:500 16px/1.4 var(--f-body);color:var(--text);background:var(--ink);border:1px solid var(--line);padding:13px 14px;border-radius:0}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--volt);box-shadow:0 0 0 3px rgba(245,197,24,.18)}
+textarea{min-height:110px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips input{position:absolute;opacity:0;width:1px;height:1px}
+.chips label{margin:0;cursor:pointer;font:600 14px/1 var(--f-body);letter-spacing:0;text-transform:none;color:var(--text);padding:10px 14px;border:1px solid var(--line);background:var(--ink)}
+.chips input:checked+label{background:var(--volt);color:var(--ink);border-color:var(--volt)}
+.chips input:focus-visible+label{outline:3px solid var(--volt);outline-offset:2px}
+.form-foot{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin-top:22px}
+.form-foot small{color:var(--muted);font-size:13.5px;flex:1;min-width:200px}
+.err{color:#ff8a7a;font-size:14px;margin-top:10px}
+
+/* área de atendimento */
+.area{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center}
+@media (max-width:860px){.area{grid-template-columns:1fr}}
+.radar{position:relative;aspect-ratio:1;max-width:420px;width:100%;margin-inline:auto}
+.radar svg{width:100%;height:100%;display:block}
+.cities{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.cities span{font-weight:600;font-size:15px;padding:8px 12px;background:var(--panel);border:1px solid var(--line)}
+.cities span.main{background:var(--volt);color:var(--ink);border-color:var(--volt)}
+
+footer{border-top:1px solid var(--line);padding-block:40px 110px;color:var(--muted);font-size:15px}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;align-items:center}
+.foot .brand img{width:64px}
+.foot p{margin:0}
+.foot .slogan{font:700 12px/1 var(--f-mono);letter-spacing:.2em;text-transform:uppercase;color:var(--volt)}
+
+.fab{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:70;width:62px;height:62px;border-radius:50%;background:var(--zap);color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.45);text-decoration:none;animation:pulse 2.6s ease-out infinite}
+.fab svg{width:32px;height:32px}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55),0 8px 24px rgba(0,0,0,.45)}70%{box-shadow:0 0 0 18px rgba(37,211,102,0),0 8px 24px rgba(0,0,0,.45)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0),0 8px 24px rgba(0,0,0,.45)}}
+.toast{position:fixed;left:50%;bottom:calc(96px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--volt);color:var(--ink);font-weight:700;padding:12px 18px;z-index:80;font-size:15px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+</style>
+</head>
+<body>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3Z"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 2 4 14h6.5L9.5 22 20 9.5h-6.6L13.5 2Z"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M14.7 6.3a4 4 0 0 0 5 5L21 13a6 6 0 0 1-7.7 1.3l-6.6 6.6a2.1 2.1 0 0 1-3-3l6.6-6.6A6 6 0 0 1 11.6 3.6l1.6 1.4-1.5 1.5 2.3 2.3 1.5-1.5"/></symbol>
+    <symbol id="i-panel" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 7v10M12 7v10M16 7v10"/></g><g fill="currentColor"><rect x="7" y="9" width="2" height="3"/><rect x="11" y="12" width="2" height="3"/><rect x="15" y="9" width="2" height="3"/></g></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.9 1 1 1.6l.1.5h4.8l.1-.5c.1-.6.5-1.2 1-1.6A6 6 0 0 0 12 3Z"/></symbol>
+    <symbol id="i-plug" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M9 3v5M15 3v5M6 8h12v3a6 6 0 0 1-12 0V8ZM12 17v4"/></symbol>
+    <symbol id="i-snow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 2v20M3.3 7l17.4 10M3.3 17 20.7 7M9 4l3 2 3-2M9 20l3-2 3 2"/></symbol>
+    <symbol id="i-fan" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M12 10c0-4 1-7 4-7 2 0 3 2 2 4l-4 4M14 12c4 0 7 1 7 4 0 2-2 3-4 2l-4-4M12 14c0 4-1 7-4 7-2 0-3-2-2-4l4-4M10 12c-4 0-7-1-7-4 0-2 2-3 4-2l4 4"/></g></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="5" width="20" height="9" rx="1"/><path d="M6 10h12M7 17l-1 3M12 17v3M17 17l1 3"/></g></symbol>
+    <symbol id="i-gauge" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="m12 14 4-5"/><circle cx="12" cy="15" r="1.4" fill="currentColor"/></g></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></g></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M3 11 12 3l9 8v10h-6v-6H9v6H3V11Z"/></symbol>
+    <symbol id="i-store" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 9 5 3h14l2 6"/><path d="M3 9h18v2a3 3 0 0 1-6 0 3 3 0 0 1-6 0 3 3 0 0 1-6 0V9ZM5 13v8h14v-8M10 21v-5h4v5"/></g></symbol>
+    <symbol id="i-factory" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M2 21V10l6 4v-4l6 4V4h3l1 17H2Zm4-4h2m3 0h2"/></symbol>
+    <symbol id="i-warn" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2 1 21h22L12 2Zm-1 7h2v6h-2V9Zm0 8h2v2h-2v-2Z"/></symbol>
+    <symbol id="i-insta" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></g></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14"/><path d="m2 6 10 7 10-7"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.5 7-12a7 7 0 0 0-14 0c0 5.5 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></g></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="M12 2 4 5v6c0 5 3.4 9.3 8 11 4.6-1.7 8-6 8-11V5l-8-3Zm-3.5 10 2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" d="m2 12 4-4 4 1 3-2 4 1 5 4-3 3-3-2-4 4-3-1-4 2-3-6Z"/></symbol>
+  </defs>
+</svg>
+
+<div class="hazard" aria-hidden="true"></div>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#inicio" aria-label="JV Serviços Elétricos, início">
+      <img src="img/logo.png" alt="">
+      <span><b>JV Serviços<br>Elétricos</b></span>
+    </a>
+    <nav class="menu" aria-label="Seções">
+      <a href="#servicos">Serviços</a>
+      <a href="#alerta">Sinais de alerta</a>
+      <a href="#area">Onde atendo</a>
+      <a href="#orcamento">Orçamento</a>
+    </nav>
+    <a class="btn btn-volt btn-sm" href="https://wa.me/5543991329964?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+      <svg><use href="#i-zap"/></svg>Orçamento
+    </a>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero" style="padding-block:0">
+    <svg class="bolt-bg" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-bolt" style="color:var(--volt)"/></svg>
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Eletricista · Ar-condicionado · Norte do Paraná</span>
+        <h1>Sua energia <em>em boas mãos</em></h1>
+        <p class="lead">Instalações, manutenção e soluções elétricas para casas, comércios e indústrias. Também instalo, limpo e faço a manutenção do seu ar-condicionado. Serviço feito com segurança, do jeito certo, na primeira vez.</p>
+        <div class="ctas">
+          <a class="btn btn-volt" href="https://wa.me/5543991329964?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Chamar no WhatsApp</a>
+          <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+        </div>
+        <div class="tension" aria-label="Atendimento">
+          <span><b>127V</b> / <b>220V</b> · monofásico e trifásico</span>
+          <span><b>RES</b> · <b>COM</b> · <b>IND</b></span>
+          <span>Split · todas as marcas</span>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="img/eletrica.jpg" alt="Eletricista da JV com capacete trabalhando em um quadro de distribuição">
+        <div class="badge">Segurança em<br>cada conexão</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="strip">
+    <div class="wrap">
+      <a class="num" href="https://wa.me/5543991329964" target="_blank" rel="noopener" style="text-decoration:none"><small>(43)</small>9 9132-9964</a>
+      <ul>
+        <li><svg><use href="#i-shield"/></svg>Serviço de qualidade</li>
+        <li><svg><use href="#i-clock"/></svg>Atendimento rápido</li>
+        <li><svg><use href="#i-hand"/></svg>Compromisso com o cliente</li>
+      </ul>
+    </div>
+  </div>
+
+  <section id="servicos">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow">O que eu faço</span>
+          <h2>Serviços</h2>
+        </div>
+        <p>Da troca de uma tomada ao projeto elétrico completo, e da instalação do split à higienização. Escolha a área e veja o que está incluso.</p>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Área de serviço">
+        <button class="tab" role="tab" id="tab-ele" aria-selected="true" aria-controls="p-ele"><svg><use href="#i-bolt"/></svg>Elétrica</button>
+        <button class="tab" role="tab" id="tab-ar" aria-selected="false" aria-controls="p-ar"><svg><use href="#i-snow"/></svg>Ar-condicionado</button>
+      </div>
+
+      <div class="svc-panel" id="p-ele" role="tabpanel" aria-labelledby="tab-ele">
+        <div class="svc-list">
+          <article class="svc"><span class="ic"><svg><use href="#i-bolt"/></svg></span><h3>Instalações elétricas</h3><p>Residenciais, comerciais e industriais. Fiação nova, tomadas, chuveiros, pontos de força e circuitos dedicados.</p></article>
+          <article class="svc"><span class="ic"><svg><use href="#i-wrench"/></svg></span><h3>Manutenção elétrica</h3><p>Preventiva e corretiva. Localizo a falha, troco o que está danificado e deixo a instalação segura de novo.</p></article>
+          <article class="svc"><span class="ic"><svg><use href="#i-panel"/></svg></span><h3>Quadros de distribuição</h3><p>Montagem e adequação de quadros, troca de disjuntores, DR e DPS, organização e identificação dos circuitos.</p></article>
+          <article class="svc"><span class="ic"><svg><use href="#i-bulb"/></svg></span><h3>Iluminação em geral</h3><p>Projetos e instalações de iluminação: luminárias, spots, fitas de LED, iluminação externa e de fachada.</p></article>
+          <article class="svc"><span class="ic"><svg><use href="#i-plug"/></svg></span><h3>Projetos elétricos</h3><p>Planejamento da instalação com foco em eficiência e segurança, para obra nova, reforma ou aumento de carga.</p></article>
+          <article class="svc"><span class="ic"><svg><use href="#i-gear"/></svg></span><h3>Assistência técnica</h3><p>Visita para avaliar problemas, quedas de energia, disjuntor que desarma e consumo fora do normal.</p></article>
+        </div>
+        <figure>
+          <img src="img/eletrica.jpg" alt="Eletricista ajustando disjuntores em um quadro de distribuição" loading="lazy">
+          <figcaption>Montagem e adequação de quadro de distribuição</figcaption>
+        </figure>
+      </div>
+
+      <div class="svc-panel" id="p-ar" role="tabpanel" aria-labelledby="tab-ar" hidden>
+        <div class="svc-list">
+          <article class="svc"><span class="ic"><svg><use href="#i-snow"/></svg></span><h3>Instalação</h3><p>Residencial, comercial e industrial. Instalação do split com infraestrutura elétrica dimensionada para o aparelho.</p></article>
+          <article class="svc"><span class="ic"><svg><use href="#i-wrench"/></svg></span><h3>Manutenção preventiva e corretiva</h3><p>Mais eficiência e maior vida útil para o seu aparelho, com menos consumo de energia.</p></article>
+          <article class="svc"><span class="ic"><svg><use href="#i-filter"/></svg></span><h3>Limpeza de filtros e evaporadores</h3><p>Ar mais puro e saudável para você e sua família.</p></article>
+          <article class="svc"><span class="ic"><svg><use href="#i-gauge"/></svg></span><h3>Recarga de gás refrigerante</h3><p>Medição de pressão com manifold e recarga para o aparelho voltar a gelar como deve.</p></article>
+          <article class="svc"><span class="ic"><svg><use href="#i-fan"/></svg></span><h3>Higienização completa</h3><p>Elimina impurezas, bactérias e mau cheiro das unidades interna e externa.</p></article>
+          <article class="svc"><span class="ic"><svg><use href="#i-gear"/></svg></span><h3>Assistência técnica especializada</h3><p>Diagnóstico e reparo em todas as marcas e modelos.</p></article>
+        </div>
+        <figure>
+          <img src="img/ar-condicionado.jpg" alt="Técnico abrindo a unidade interna de um split, com manifold de pressão ao lado" loading="lazy">
+          <figcaption>Manutenção de split com medição de pressão</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="segs">
+        <div class="seg"><svg class="ic"><use href="#i-home"/></svg><h3>Residencial</h3><p>Casas e apartamentos: reformas, chuveiro que desarma, tomadas novas, iluminação e ar-condicionado no quarto.</p></div>
+        <div class="seg"><svg class="ic"><use href="#i-store"/></svg><h3>Comercial</h3><p>Lojas, escritórios, restaurantes e clínicas. Manutenção que não deixa o seu negócio parado.</p></div>
+        <div class="seg"><svg class="ic"><use href="#i-factory"/></svg><h3>Industrial</h3><p>Quadros, circuitos de força e climatização para barracões e linhas de produção.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alert-sec" id="alerta">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow">Não deixe para depois</span>
+          <h2>Hora de chamar o eletricista</h2>
+        </div>
+        <p>Alguns sinais parecem pequenos, mas indicam sobrecarga ou fiação danificada. Se você reconhece algum deles, vale uma avaliação.</p>
+      </div>
+      <div class="alerts">
+        <div class="al"><svg class="tri"><use href="#i-warn"/></svg><div><b>Disjuntor desarmando sempre</b><span>O circuito está sobrecarregado ou existe um curto em algum ponto.</span></div></div>
+        <div class="al"><svg class="tri"><use href="#i-warn"/></svg><div><b>Cheiro de queimado</b><span>Desligue o circuito no quadro e não use a tomada até a avaliação.</span></div></div>
+        <div class="al"><svg class="tri"><use href="#i-warn"/></svg><div><b>Tomada ou espelho quente</b><span>Mau contato ou fio subdimensionado para o aparelho ligado ali.</span></div></div>
+        <div class="al"><svg class="tri"><use href="#i-warn"/></svg><div><b>Luz piscando ou fraca</b><span>Pode ser conexão frouxa no circuito ou no quadro.</span></div></div>
+        <div class="al"><svg class="tri"><use href="#i-warn"/></svg><div><b>Choque ao encostar em aparelhos</b><span>Falta de aterramento ou de proteção DR na instalação.</span></div></div>
+        <div class="al"><svg class="tri"><use href="#i-warn"/></svg><div><b>Ar-condicionado não gela ou pinga</b><span>Filtro sujo, dreno entupido ou falta de gás refrigerante.</span></div></div>
+      </div>
+      <div class="al-note">
+        <p><strong>Dica:</strong> filtros do ar-condicionado devem ser limpos com frequência, e a higienização completa feita pelo menos uma vez por ano.</p>
+        <a class="btn btn-volt btn-sm" href="https://wa.me/5543991329964?text=Ol%C3%A1%2C%20estou%20com%20um%20problema%20el%C3%A9trico%20e%20gostaria%20de%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Pedir avaliação</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow">Como funciona</span>
+          <h2>Do contato ao serviço pronto</h2>
+        </div>
+        <p>Atendimento direto, sem intermediário: você fala com quem vai executar o serviço.</p>
+      </div>
+      <ol class="steps">
+        <li><h3>Você chama</h3><p>Mande uma mensagem no WhatsApp contando o problema. Fotos ajudam bastante.</p></li>
+        <li><h3>Avaliação</h3><p>Analiso o caso, tiro as dúvidas e, se precisar, faço uma visita no local.</p></li>
+        <li><h3>Orçamento</h3><p>Você recebe o valor e o prazo antes de qualquer serviço começar.</p></li>
+        <li><h3>Execução</h3><p>Serviço feito com segurança, local limpo e tudo testado na entrega.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="area" style="padding-top:0">
+    <div class="wrap area">
+      <div class="radar" aria-hidden="true" style="aspect-ratio:420/270;max-width:520px">
+        <svg viewBox="0 0 420 270">
+          <defs><radialGradient id="rg"><stop offset="0" stop-color="#f5c518" stop-opacity=".2"/><stop offset="1" stop-color="#f5c518" stop-opacity="0"/></radialGradient></defs>
+          <g stroke="#2a2822" stroke-width="1"><path d="M20 30v220M110 30v220M200 30v220M290 30v220M380 30v220M20 30h360M20 103h360M20 176h360M20 250h360"/></g>
+          <circle cx="49" cy="190" r="70" fill="url(#rg)"/>
+          <circle cx="320" cy="85" r="80" fill="url(#rg)"/>
+          <path d="M49 190 C120 170 220 140 308 101" fill="none" stroke="#f5c518" stroke-width="2" stroke-dasharray="7 7"/>
+          <path d="M308 101 L354 74 M308 101 L295 61" fill="none" stroke="#f5c518" stroke-width="1.5" stroke-dasharray="3 5"/>
+          <circle cx="49" cy="190" r="10" fill="#f5c518"/><circle cx="49" cy="190" r="19" fill="none" stroke="#f5c518" stroke-width="2"/>
+          <circle cx="308" cy="101" r="8" fill="#f5c518"/><circle cx="308" cy="101" r="16" fill="none" stroke="#f5c518" stroke-width="2"/>
+          <circle cx="354" cy="74" r="6" fill="#f5c518"/>
+          <circle cx="295" cy="61" r="6" fill="#f5c518"/>
+          <g font-family="JetBrains Mono, monospace" font-weight="700" letter-spacing="1" text-anchor="middle">
+            <text x="56" y="228" font-size="14" fill="#f2efe6">LONDRINA</text>
+            <text x="300" y="132" font-size="12" fill="#f2efe6">BANDEIRANTES</text>
+            <text x="365" y="98" font-size="11" fill="#a7a196">ANDIRÁ</text>
+            <text x="290" y="45" font-size="11" fill="#a7a196">ITAMBARACÁ</text>
+            <text x="180" y="190" font-size="10" fill="#a7a196">≈ 80 km</text>
+            <text x="388" y="262" font-size="10" fill="#6f6a60" text-anchor="end">NORTE DO PARANÁ</text>
+          </g>
+          <g fill="#a7a196" font-family="JetBrains Mono, monospace" font-size="10" font-weight="700"><path d="M396 30 l6 14 h-12 z"/><text x="396" y="58" text-anchor="middle">N</text></g>
+        </svg>
+      </div>
+      <div>
+        <span class="eyebrow">Onde atendo</span>
+        <h2 style="font-size:clamp(34px,4.6vw,58px);font-weight:900;text-transform:uppercase;margin-top:14px">Londrina, Bandeirantes e região</h2>
+        <p style="color:var(--muted);margin:18px 0 0;max-width:34em">Atendimento em Londrina e no Norte Pioneiro do Paraná, de Bandeirantes a Andirá e Itambaracá. Sua cidade não está na lista? Manda mensagem que a gente combina.</p>
+        <div class="cities">
+          <span class="main">Londrina</span><span class="main">Bandeirantes</span><span>Andirá</span><span>Itambaracá</span><span>e região</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="orcamento" style="background:var(--panel);border-top:1px solid var(--line)">
+    <div class="wrap quote">
+      <div>
+        <span class="eyebrow">Fale comigo</span>
+        <h2 style="font-size:clamp(34px,4.6vw,58px);font-weight:900;text-transform:uppercase;margin-top:14px">Solicite seu orçamento</h2>
+        <p style="color:var(--muted);margin:18px 0 0;max-width:30em">Preencha ao lado e a mensagem já vai pronta para o WhatsApp. Se preferir, use um dos contatos abaixo.</p>
+        <ul class="contact-list">
+          <li><span class="ic"><svg><use href="#i-zap"/></svg></span><div class="meta"><div class="k">WhatsApp</div><div class="v"><a href="https://wa.me/5543991329964" target="_blank" rel="noopener" id="phone">(43) 9 9132-9964</a></div></div><button class="copy" type="button" data-copy="(43) 99132-9964">Copiar</button></li>
+          <li><span class="ic"><svg><use href="#i-insta"/></svg></span><div class="meta"><div class="k">Instagram</div><div class="v"><a href="https://www.instagram.com/jvservicoseletricos/" target="_blank" rel="noopener">@jvservicoseletricos</a></div></div></li>
+          <li><span class="ic"><svg><use href="#i-mail"/></svg></span><div class="meta"><div class="k">E-mail</div><div class="v">jvservicoseletricos@gmail.com</div></div><button class="copy" type="button" data-copy="jvservicoseletricos@gmail.com">Copiar</button></li>
+          <li><span class="ic"><svg><use href="#i-pin"/></svg></span><div class="meta"><div class="k">Localização</div><div class="v">Londrina, Bandeirantes, Andirá, Itambaracá e região</div></div></li>
+        </ul>
+      </div>
+
+      <form class="card" id="qform" novalidate>
+        <h3>Pedido de orçamento</h3>
+        <p class="sub">Leva menos de um minuto.</p>
+        <div class="fgrid">
+          <div><label for="f-nome">Seu nome</label><input id="f-nome" name="nome" autocomplete="name" placeholder="Ex.: Maria Souza" required></div>
+          <div><label for="f-cidade">Cidade / bairro</label><input id="f-cidade" name="cidade" placeholder="Ex.: Bandeirantes, Centro"></div>
+          <div class="full">
+            <label id="l-tipo">Tipo de serviço</label>
+            <div class="chips" role="group" aria-labelledby="l-tipo">
+              <input type="radio" name="tipo" id="t1" value="Instalação elétrica" checked><label for="t1">Instalação elétrica</label>
+              <input type="radio" name="tipo" id="t2" value="Manutenção / problema elétrico"><label for="t2">Manutenção / problema</label>
+              <input type="radio" name="tipo" id="t3" value="Quadro de distribuição"><label for="t3">Quadro</label>
+              <input type="radio" name="tipo" id="t4" value="Iluminação"><label for="t4">Iluminação</label>
+              <input type="radio" name="tipo" id="t5" value="Projeto elétrico"><label for="t5">Projeto</label>
+              <input type="radio" name="tipo" id="t6" value="Ar-condicionado"><label for="t6">Ar-condicionado</label>
+            </div>
+          </div>
+          <div><label for="f-local">Local</label>
+            <select id="f-local" name="local"><option>Residência</option><option>Comércio</option><option>Indústria</option></select></div>
+          <div><label for="f-urg">Urgência</label>
+            <select id="f-urg" name="urg"><option>Sem pressa</option><option>Esta semana</option><option>Urgente</option></select></div>
+          <div class="full"><label for="f-msg">Conte o que precisa</label><textarea id="f-msg" name="msg" placeholder="Ex.: Quero instalar um split de 12.000 BTUs no quarto, já tenho o aparelho."></textarea></div>
+        </div>
+        <div class="err" id="ferr" hidden>Escreva seu nome para eu saber com quem estou falando.</div>
+        <div class="form-foot">
+          <button class="btn btn-volt" type="submit"><svg><use href="#i-zap"/></svg>Enviar pelo WhatsApp</button>
+          <small>Abre o WhatsApp com a mensagem pronta. É só tocar em enviar.</small>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <a class="brand" href="#inicio"><img src="img/logo.png" alt="JV Serviços Elétricos"><span><b>JV Serviços Elétricos</b><small>ELÉTRICA + AR-CONDICIONADO</small></span></a>
+    <p class="slogan">Energia para o que realmente importa</p>
+    <p>Londrina - PR · (43) 9 9132-9964 · © 2026</p>
+  </div>
+</footer>
+<div class="hazard" aria-hidden="true"></div>
+
+<a class="fab" href="https://wa.me/5543991329964?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Chamar no WhatsApp"><svg><use href="#i-zap"/></svg></a>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(function(){
+  var tabs=document.querySelectorAll('.tab');
+  tabs.forEach(function(t){
+    t.addEventListener('click',function(){
+      tabs.forEach(function(o){
+        var on=o===t; o.setAttribute('aria-selected',on);
+        document.getElementById(o.getAttribute('aria-controls')).hidden=!on;
+      });
+    });
+  });
+
+  var toast=document.getElementById('toast'),tt;
+  function show(m){toast.textContent=m;toast.hidden=false;clearTimeout(tt);tt=setTimeout(function(){toast.hidden=true},2200)}
+  document.querySelectorAll('.copy').forEach(function(b){
+    b.addEventListener('click',function(){
+      var txt=b.getAttribute('data-copy');
+      var done=function(){show('Copiado: '+txt)};
+      try{
+        navigator.clipboard.writeText(txt).then(done,function(){sel(b);});
+      }catch(e){sel(b);}
+    });
+  });
+  function sel(b){
+    var v=b.parentNode.querySelector('.v');var r=document.createRange();r.selectNodeContents(v);
+    var s=window.getSelection();s.removeAllRanges();s.addRange(r);show('Texto selecionado, copie com Ctrl+C');
+  }
+
+  var f=document.getElementById('qform'),err=document.getElementById('ferr');
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var d=new FormData(f),nome=(d.get('nome')||'').trim();
+    if(!nome){err.hidden=false;document.getElementById('f-nome').focus();return}
+    err.hidden=true;
+    var linhas=['Olá! Vim pelo site e gostaria de um orçamento.','','*Nome:* '+nome];
+    if((d.get('cidade')||'').trim())linhas.push('*Cidade/bairro:* '+d.get('cidade').trim());
+    linhas.push('*Serviço:* '+d.get('tipo'),'*Local:* '+d.get('local'),'*Urgência:* '+d.get('urg'));
+    if((d.get('msg')||'').trim())linhas.push('','*Detalhes:* '+d.get('msg').trim());
+    var url='https://wa.me/5543991329964?text='+encodeURIComponent(linhas.join('\n'));
+    var a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener';document.body.appendChild(a);a.click();a.remove();
+  });
+})();
+</script>
+
+</body>
+</html>

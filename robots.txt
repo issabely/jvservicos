@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xn--jvservios-w3a.com/sitemap.xml
